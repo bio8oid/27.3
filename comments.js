@@ -5,7 +5,7 @@ import {THUMB_UP_COMMENT} from './actions'
 import {THUMB_DOWN_COMMENT} from './actions'
 
 
-function comments(state = [], action) {
+comments = (state = [], action) => {
     switch(action.type) {
 
         case ADD_COMMENT:
